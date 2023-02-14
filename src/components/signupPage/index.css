@@ -1,0 +1,102 @@
+.form-cont {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.form-cont > img {
+  height: 90%;
+}
+
+.form-cont > form {
+  display: flex;
+  flex-direction: column;
+  padding: 55px;
+  width: 30vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.form-cont > form > label {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #475569;
+}
+
+.form-cont > form > h1 {
+  align-self: center;
+  margin-top: 0;
+  color: #475569;
+}
+
+.form-cont > form > input {
+  height: 45px;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #475569;
+}
+
+.re-pass-inp {
+  height: 45px;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+
+.sign-up-btn {
+  background-color: blueviolet;
+  border-radius: 10px;
+  height: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.un-match {
+  outline: 1px solid red;
+  color: red;
+  border: 0 !important;
+}
+
+.match {
+  outline: 1px solid green;
+  color: green;
+  border: 0 !important;
+}
+
+.err {
+  color: red;
+  text-align: center;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-cont > img {
+    height: 250px;
+  }
+
+  .form-cont > form {
+    width: 90%;
+    margin-top: 10px;
+  }
+}
