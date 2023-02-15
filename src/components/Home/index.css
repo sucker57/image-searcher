@@ -22,3 +22,59 @@
   align-items: center;
   justify-content: center;
 }
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.search-input-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  border: 1px solid #7b8794;
+  padding: 2px 2px;
+}
+.search-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 450px;
+}
+.image-container {
+}
+.container-head {
+  text-decoration: underline blue;
+  color: rgb(60, 87, 207);
+  text-align: left;
+  margin-left: 50px;
+}
+.ser-first-container {
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.but-image {
+  height: 40px;
+}
+
+.but-container {
+  height: 50px;
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+  background: transparent;
+  border: 0;
+}
